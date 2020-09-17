@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: todo-apps
-        image: gcr.io/narasi-infrastructure/todo-apps:latest
+        image: gcr.io/narasi-infrastructure/todo-apps
         ports:
         - containerPort: 3000
         env:
