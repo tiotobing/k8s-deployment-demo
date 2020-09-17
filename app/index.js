@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 //placeholders for added task
-var task = ["Klik Digital", "Learn DevOps"];
+var task = ["Klik Digital", "Learn DevOps", "be Grateful"];
 //placeholders for removed task
 var complete = ["Pakai Masker"];
 
