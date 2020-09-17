@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: todo-apps
-        env: development
+        env: production
     spec:
       containers:
       - name: todo-apps
@@ -24,5 +24,5 @@ spec:
         - name: LOG_LEVEL
           value: "info"
         - name: NODE_ENV
-          value: "development"
+          value: "production"
 
